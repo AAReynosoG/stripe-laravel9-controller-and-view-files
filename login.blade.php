@@ -11,7 +11,7 @@
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <h2 class="text-center mt-5">Iniciar Sesión</h2>
-                <form action="{{ route('login') }}" method="POST">
+                <form>
                     @csrf <!-- Protección CSRF -->
                     <div class="mb-3">
                         <label for="username" class="form-label">Usuario</label>
